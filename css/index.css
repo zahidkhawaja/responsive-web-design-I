@@ -68,6 +68,12 @@ h1, h2, h3, h4, h5 {
 *{
 	box-sizing:border-box;
 	align-content: space-between;
+
+  }
+
+  html {
+	  display: flex;
+	  justify-content: center;
   }
 
 .navigation .links {
@@ -79,7 +85,9 @@ h1, h2, h3, h4, h5 {
 
 .navigation {
 	display: flex;
+	justify-content: center;
 	padding-top: 25px;
+	width: 800px;
 }
 
 .navigation .logo {
@@ -93,21 +101,32 @@ header {
 	justify-content: center;
 	align-items: center;
 	padding-top: 50px;
+	width: 800px;
 }
 
-.top-content {
+.bottomcontainer {
+	width: 800px;
+
+}
+
+.top-content, .bottom-content {
 	display: flex;
-	padding: 30px 30px 30px 30px;
+	width: 800px;
+	margin: 30px 30px 30px 0px;
+}
+
+.top-content .firstrow, .bottom-content .secondrow {
+	display: flex;
+	justify-content: center;
+}
+
+.top-content .firstrow div, .bottom-content .secondrow div {
+	padding: 0px 5px 0px 5px;
 }
 
 .banner {
 	display: flex;
 	justify-content: center;
-}
-
-.bottom-content {
-	display: flex;
-	padding: 30px 30px 30px 30px;
 }
 
 footer {
@@ -140,7 +159,7 @@ h1 {
 }
 
 .contact div {
-	padding: 30px 30px 30px 30px;
+	padding: 30px 30px 30px 5px;
 }
 
 .getstarted {
@@ -149,8 +168,7 @@ h1 {
 
 .middle-img {
 	display: flex;
-  	padding-top: 25px;
-  	width: 97%;
+  	width: 800px;
 }
 
 h3 {
