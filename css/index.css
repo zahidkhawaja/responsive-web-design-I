@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: center;
 	padding-top: 25px;
-	width: 800px;
+	max-width: 800px;
 }
 
 .navigation .logo {
@@ -101,17 +101,17 @@ header {
 	justify-content: center;
 	align-items: center;
 	padding-top: 50px;
-	width: 800px;
+	max-width: 800px;
 }
 
 .bottomcontainer {
-	width: 800px;
+	max-width: 800px;
 
 }
 
 .top-content, .bottom-content {
 	display: flex;
-	width: 800px;
+	max-width: 800px;
 	margin: 30px 30px 30px 0px;
 }
 
@@ -168,7 +168,7 @@ h1 {
 
 .middle-img {
 	display: flex;
-  	width: 800px;
+  	max-width: 800px;
 }
 
 h3 {
@@ -251,4 +251,54 @@ hr {
 }
 
 /* Responsive design code */
+
+@media(max-width: 800px) {
+
+	* {
+		max-width: 95%;
+	}
+	.circlelogo {
+		display: none;
+	}
+
+	.navigation {
+	flex-direction: column-reverse;
+	}
+
+	.navigation .logo, .navigation .links {
+		margin: auto;
+	}
+
+
+@media(max-width: 500px) {
+	.navigation .links {
+		flex-direction: column;
+	}
+
+	.navigation .links a {
+		width: 95%;
+		text-align: center;
+		margin: 15px 5%;
+		padding-bottom: 20px;
+		border-bottom: 1px solid black;
+		color: gray;
+	}
+
+	.navigation .logo {
+		padding-bottom: 20px;
+	}
+
+	.links:first-child {
+		border-top: 1px solid black;
+		padding-top: 10px;
+	}
+
+	.firstrow, .secondrow {
+		flex-direction: column;
+	}
+
+	.features, .about, .services, .product, .vision {
+		margin-bottom: 25px;
+	}
+
 
