@@ -254,7 +254,7 @@ hr {
 
 @media(max-width: 800px) {
 
-	* {
+	body {
 		width: 95%;
 	}
 
