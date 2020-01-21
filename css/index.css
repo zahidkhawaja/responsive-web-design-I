@@ -255,8 +255,9 @@ hr {
 @media(max-width: 800px) {
 
 	* {
-		max-width: 95%;
+		width: 95%;
 	}
+
 	.circlelogo {
 		display: none;
 	}
@@ -275,6 +276,18 @@ hr {
 
 	.navigation .links {
 		justify-content: space-between;
+	}
+
+	.getstarted {
+		margin: auto;
+	}
+
+	.banner {
+		width: 95%;
+	}
+
+	footer {
+		text-align: center;
 	}
 
 
