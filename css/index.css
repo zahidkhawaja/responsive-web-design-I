@@ -258,6 +258,10 @@ hr {
 		width: 95%;
 	}
 
+	.middle-img {
+		width: 95%;
+	}
+
 	.circlelogo {
 		display: none;
 	}
@@ -307,6 +311,10 @@ hr {
 
 	.navigation .logo {
 		padding-bottom: 20px;
+	}
+
+	.middle-img {
+		width: 95%;
 	}
 
 	.links:first-child {
